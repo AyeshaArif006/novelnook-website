@@ -1,0 +1,32 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Kite Runner book cover">
+  <defs>
+    <linearGradient id="bgKite" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c3a52"/>
+      <stop offset="45%" stop-color="#a8592f"/>
+      <stop offset="100%" stop-color="#5c211c"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="400" fill="url(#bgKite)"/>
+  <rect x="14" y="14" width="272" height="372" fill="none" stroke="#f3e3c3" stroke-width="1.5"/>
+  <rect x="19" y="19" width="262" height="362" fill="none" stroke="#f3e3c3" stroke-width="0.6" opacity="0.6"/>
+  <g stroke="#f3e3c3" stroke-width="1.2" fill="none" opacity="0.85">
+    <path d="M14 34 h20 M14 14 v20"/>
+    <path d="M286 34 h-20 M286 14 v20"/>
+    <path d="M14 366 h20 M14 386 v-20"/>
+    <path d="M286 366 h-20 M286 386 v-20"/>
+  </g>
+  <circle cx="150" cy="110" r="26" fill="#f3e3c3" opacity="0.85"/>
+  <!-- kite -->
+  <g transform="translate(190,150) rotate(18)">
+    <path d="M0,-38 L26,0 L0,38 L-26,0 Z" fill="#c9963d" stroke="#f3e3c3" stroke-width="1.4"/>
+    <line x1="0" y1="-38" x2="0" y2="38" stroke="#7b2d26" stroke-width="1"/>
+    <line x1="-26" y1="0" x2="26" y2="0" stroke="#7b2d26" stroke-width="1"/>
+    <path d="M0,38 Q-6,55 4,66 Q-6,74 2,88" stroke="#f3e3c3" stroke-width="1" fill="none"/>
+  </g>
+  <path d="M20 240 Q90 210 150 232 Q210 210 280 240 L280 260 L20 260 Z" fill="#2c130f" opacity="0.55"/>
+  <line x1="80" y1="272" x2="220" y2="272" stroke="#f3e3c3" stroke-width="1"/>
+  <text x="150" y="300" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="15" letter-spacing="4" fill="#e6ddcb">THE</text>
+  <text x="150" y="330" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="700" fill="#f3e3c3" letter-spacing="1.5">Kite Runner</text>
+  <line x1="95" y1="346" x2="205" y2="346" stroke="#f3e3c3" stroke-width="0.8" opacity="0.7"/>
+  <text x="150" y="370" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="13.5" fill="#e6ddcb">Khaled Hosseini</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Jannat Ke Pattay book cover">
+  <defs>
+    <linearGradient id="bgJKP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e2a1c"/>
+      <stop offset="55%" stop-color="#1c4a30"/>
+      <stop offset="100%" stop-color="#2c6b45"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="400" fill="url(#bgJKP)"/>
+  <rect x="14" y="14" width="272" height="372" fill="none" stroke="#c9963d" stroke-width="1.5"/>
+  <rect x="19" y="19" width="262" height="362" fill="none" stroke="#c9963d" stroke-width="0.6" opacity="0.7"/>
+  <g stroke="#c9963d" stroke-width="1.2" fill="none" opacity="0.85">
+    <path d="M14 34 h20 M14 14 v20"/>
+    <path d="M286 34 h-20 M286 14 v20"/>
+    <path d="M14 366 h20 M14 386 v-20"/>
+    <path d="M286 366 h-20 M286 386 v-20"/>
+  </g>
+  <!-- leaf motif -->
+  <g transform="translate(150,120)">
+    <path d="M0,-46 C 34,-30 34,30 0,46 C -34,30 -34,-30 0,-46 Z" fill="none" stroke="#e9c988" stroke-width="1.6"/>
+    <line x1="0" y1="-46" x2="0" y2="46" stroke="#e9c988" stroke-width="1"/>
+    <path d="M0,-24 L16,-12 M0,-2 L18,10 M0,20 L14,30" stroke="#e9c988" stroke-width="0.8" fill="none"/>
+    <path d="M0,-24 L-16,-12 M0,-2 L-18,10 M0,20 L-14,30" stroke="#e9c988" stroke-width="0.8" fill="none"/>
+  </g>
+  <line x1="90" y1="204" x2="210" y2="204" stroke="#c9963d" stroke-width="1"/>
+  <text x="150" y="234" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="25" font-weight="700" fill="#f3e3c3" letter-spacing="1">Jannat Ke</text>
+  <text x="150" y="266" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="25" font-weight="700" fill="#f3e3c3" letter-spacing="1">Pattay</text>
+  <line x1="105" y1="284" x2="195" y2="284" stroke="#c9963d" stroke-width="0.8" opacity="0.8"/>
+  <text x="150" y="310" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#e6ddcb">Nimra Ahmed</text>
+  <text x="150" y="356" text-anchor="middle" font-family="'Poppins', sans-serif" font-size="10" letter-spacing="2.5" fill="#c9963d">URDU CLASSIC</text>
+</svg>

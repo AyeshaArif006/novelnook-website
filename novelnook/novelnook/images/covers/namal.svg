@@ -1,0 +1,31 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Namal book cover">
+  <defs>
+    <linearGradient id="bgNamal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2f2b"/>
+      <stop offset="55%" stop-color="#1d4a41"/>
+      <stop offset="100%" stop-color="#2d6656"/>
+    </linearGradient>
+    <linearGradient id="sunNamal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3e3c3"/>
+      <stop offset="100%" stop-color="#c9963d"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="400" fill="url(#bgNamal)"/>
+  <rect x="14" y="14" width="272" height="372" fill="none" stroke="#c9963d" stroke-width="1.5"/>
+  <rect x="19" y="19" width="262" height="362" fill="none" stroke="#c9963d" stroke-width="0.6" opacity="0.7"/>
+  <g stroke="#c9963d" stroke-width="1.2" fill="none" opacity="0.85">
+    <path d="M14 34 h20 M14 14 v20"/>
+    <path d="M286 34 h-20 M286 14 v20"/>
+    <path d="M14 366 h20 M14 386 v-20"/>
+    <path d="M286 366 h-20 M286 386 v-20"/>
+  </g>
+  <!-- sun over hills -->
+  <circle cx="150" cy="128" r="34" fill="url(#sunNamal)" opacity="0.9"/>
+  <path d="M40 190 Q100 140 150 175 Q200 140 260 190 L260 210 L40 210 Z" fill="#153b33"/>
+  <path d="M20 210 Q90 175 150 205 Q210 175 280 210 L280 232 L20 232 Z" fill="#0f2f2b"/>
+  <line x1="90" y1="252" x2="210" y2="252" stroke="#c9963d" stroke-width="1"/>
+  <text x="150" y="288" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="700" fill="#f3e3c3" letter-spacing="2">Namal</text>
+  <line x1="105" y1="306" x2="195" y2="306" stroke="#c9963d" stroke-width="0.8" opacity="0.8"/>
+  <text x="150" y="332" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#e6ddcb">Nimra Ahmed</text>
+  <text x="150" y="356" text-anchor="middle" font-family="'Poppins', sans-serif" font-size="10.5" letter-spacing="3" fill="#c9963d">URDU ROMANCE</text>
+</svg>

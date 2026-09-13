@@ -1,0 +1,40 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="The Forty Rules of Love book cover">
+  <defs>
+    <radialGradient id="bgForty" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#8f3730"/>
+      <stop offset="60%" stop-color="#5c211c"/>
+      <stop offset="100%" stop-color="#3a0f0c"/>
+    </radialGradient>
+  </defs>
+  <rect width="300" height="400" fill="url(#bgForty)"/>
+  <rect x="14" y="14" width="272" height="372" fill="none" stroke="#c9963d" stroke-width="1.5"/>
+  <rect x="19" y="19" width="262" height="362" fill="none" stroke="#c9963d" stroke-width="0.6" opacity="0.7"/>
+  <g stroke="#c9963d" stroke-width="1.2" fill="none" opacity="0.85">
+    <path d="M14 34 h20 M14 14 v20"/>
+    <path d="M286 34 h-20 M286 14 v20"/>
+    <path d="M14 366 h20 M14 386 v-20"/>
+    <path d="M286 366 h-20 M286 386 v-20"/>
+  </g>
+  <!-- whirling rose-window motif, evokes Rumi/Sufi mysticism -->
+  <g transform="translate(150,128)" stroke="#e9c988" fill="none">
+    <circle r="46" stroke-width="1"/>
+    <circle r="34" stroke-width="0.8"/>
+    <g id="petalsForty">
+      <path d="M0,-46 C10,-30 10,-10 0,0 C-10,-10 -10,-30 0,-46 Z" fill="#e9c988" opacity="0.85"/>
+    </g>
+    <use xlink:href="#petalsForty" href="#petalsForty" transform="rotate(45)"/>
+    <use xlink:href="#petalsForty" href="#petalsForty" transform="rotate(90)"/>
+    <use xlink:href="#petalsForty" href="#petalsForty" transform="rotate(135)"/>
+    <use xlink:href="#petalsForty" href="#petalsForty" transform="rotate(180)"/>
+    <use xlink:href="#petalsForty" href="#petalsForty" transform="rotate(225)"/>
+    <use xlink:href="#petalsForty" href="#petalsForty" transform="rotate(270)"/>
+    <use xlink:href="#petalsForty" href="#petalsForty" transform="rotate(315)"/>
+    <circle r="7" fill="#c9963d" stroke="none"/>
+  </g>
+  <line x1="80" y1="204" x2="220" y2="204" stroke="#c9963d" stroke-width="1"/>
+  <text x="150" y="230" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="14" letter-spacing="4" fill="#e6ddcb">THE FORTY RULES</text>
+  <text x="150" y="262" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="27" font-weight="700" fill="#f3e3c3" letter-spacing="1">of Love</text>
+  <line x1="95" y1="280" x2="205" y2="280" stroke="#c9963d" stroke-width="0.8" opacity="0.8"/>
+  <text x="150" y="304" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="13.5" fill="#e6ddcb">Elif Shafak</text>
+  <text x="150" y="356" text-anchor="middle" font-family="'Poppins', sans-serif" font-size="10" letter-spacing="2.5" fill="#c9963d">ENGLISH FICTION</text>
+</svg>

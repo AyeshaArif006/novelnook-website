@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovelNook | Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&family=Noto+Nastaliq+Urdu:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Novel<span>Nook</span></a>
+
+    <nav class="navbar" id="navbar">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="novels.html">Novels</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">A Home for Readers</p>
+        <h1>Stories that speak in <span class="accent">Urdu</span> &amp; <span class="accent">English</span></h1>
+        <p class="hero-sub">From the emotional depths of <em>Namal</em> and <em>Bakht</em> to the timeless
+          journeys of <em>The Kite Runner</em> and <em>The Forty Rules of Love</em> — discover a curated
+          shelf built for every kind of reader.</p>
+        <div class="hero-actions">
+          <a href="novels.html" class="btn btn-primary">Browse Novels</a>
+          <a href="about.html" class="btn btn-outline">Our Story</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong id="statBooks">0</strong><span>Novels Listed</span></div>
+          <div><strong>2</strong><span>Languages</span></div>
+          <div><strong>1000+</strong><span>Happy Readers</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="book-stack" aria-hidden="true">
+          <div class="floating-book b1"><img src="images/covers/bakht.svg" alt="Bakht cover"></div>
+          <div class="floating-book b2"><img src="images/covers/namal.svg" alt="Namal cover"></div>
+          <div class="floating-book b3"><img src="images/covers/kite-runner.svg" alt="The Kite Runner cover"></div>
+          <div class="floating-book b4"><img src="images/covers/forty-rules-of-love.svg" alt="The Forty Rules of Love cover"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED SLIDER -->
+  <section class="section featured">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Handpicked</p>
+        <h2>Featured This Week</h2>
+      </div>
+
+      <div class="slider" id="slider">
+        <div class="slider-track" id="sliderTrack">
+          <!-- Slides injected by JS -->
+        </div>
+        <button class="slider-btn prev" id="prevBtn" aria-label="Previous">&#10094;</button>
+        <button class="slider-btn next" id="nextBtn" aria-label="Next">&#10095;</button>
+        <div class="slider-dots" id="sliderDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORY HIGHLIGHTS -->
+  <section class="section categories">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Explore</p>
+        <h2>Pick Your Shelf</h2>
+      </div>
+      <div class="category-grid">
+        <div class="category-card">
+          <div class="cat-icon">اردو</div>
+          <h3>Urdu Novels</h3>
+          <p>Immerse yourself in the rich prose of Bakht, Namal, Mushaf, Maala and Jannat Ke Pattay.</p>
+          <a href="novels.html#urdu" class="cat-link">View Urdu Shelf &rarr;</a>
+        </div>
+        <div class="category-card">
+          <div class="cat-icon">EN</div>
+          <h3>English Novels</h3>
+          <p>Explore powerful storytelling in The Kite Runner, Splendid Suns, Better Than Movies &amp; more.</p>
+          <a href="novels.html#english" class="cat-link">View English Shelf &rarr;</a>
+        </div>
+        <div class="category-card">
+          <div class="cat-icon">★</div>
+          <h3>Reader Favourites</h3>
+          <p>Top-rated picks loved by our community — updated regularly based on reviews.</p>
+          <a href="gallery.html" class="cat-link">See Gallery &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="section newsletter">
+    <div class="container newsletter-box">
+      <div>
+        <h2>Never Miss a New Release</h2>
+        <p>Join our reading circle and get notified about new Urdu &amp; English arrivals.</p>
+      </div>
+      <form id="newsletterForm" class="newsletter-form" novalidate>
+        <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <p class="form-msg" id="newsletterMsg"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <a href="index.html" class="logo">Novel<span>Nook</span></a>
+      <p>A cozy digital corner for lovers of Urdu and English literature.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="novels.html">Novels</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li>Lahore, Pakistan</li>
+        <li>hello@novelnook.com</li>
+        <li>+92 300 1234567</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Follow Us</h4>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Twitter">TW</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> NovelNook. All rights reserved. | BSCS Web Technologies Assignment</p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
